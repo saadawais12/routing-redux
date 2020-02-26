@@ -1,13 +1,14 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 
 function cakes() {
   return (
     <div>
-      <h2>Number of cakes-122</h2>
+      <h2>Number of cakes</h2>
 
-      <a name="" id="" class="btn btn-primary" href="#" role="button">
+      <button type="button" name="" id="" class="btn btn-primary" btn-lg>
         click me
-      </a>
+      </button>
     </div>
   );
 }
